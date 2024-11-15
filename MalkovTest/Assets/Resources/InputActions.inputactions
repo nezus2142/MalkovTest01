@@ -1,0 +1,46 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "GameplayActionMap",
+            "id": "e23319f1-3ec8-4286-83fd-6d6db03f7af0",
+            "actions": [
+                {
+                    "name": "ClickAction",
+                    "type": "Button",
+                    "id": "7f0e4b96-eb41-4738-b157-6b9ddabdd087",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5c2310bd-ff9f-401e-9b25-07b14115176b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "MouseKeyboard",
+            "bindingGroup": "MouseKeyboard",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
